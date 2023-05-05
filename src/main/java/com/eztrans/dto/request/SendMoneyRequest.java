@@ -12,6 +12,12 @@ public class SendMoneyRequest {
 	@Min(0)
 	private int amount;
 
+	public SendMoneyRequest(String payerMobile, String payeeMobile, int amount) {
+		this.payerMobile = payerMobile;
+		this.payeeMobile = payeeMobile;
+		this.amount = amount;
+	}
+
 	public String getPayerMobile() {
 		return payerMobile;
 	}

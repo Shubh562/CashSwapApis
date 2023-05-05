@@ -24,6 +24,7 @@ public class SignupRequest {
 	@Size(max = 4, min = 4)
 	private String pin;
 
+
 	public String getFirstName() {
 		return firstName;
 	}
